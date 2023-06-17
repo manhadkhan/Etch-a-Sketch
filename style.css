@@ -1,0 +1,8 @@
+.grid-item {
+    background-color: #ddd;
+    border: 1px solid #888;
+    height: 40px;
+    width: 40px;
+    box-sizing: border-box;
+    flex-basis: calc(100% / 16);
+}
