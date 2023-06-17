@@ -15,4 +15,10 @@ window.addEventListener("DOMContentLoaded", function() {
             container.appendChild(gridItem);
         }
     }
+
+//add an event listener for pixelated trail effect
+container.addEventListener('mouseover', function(event) {
+    const gridItem = event.target;
+    gridItem.style.backgroundColor = '#999';
+    });
 });

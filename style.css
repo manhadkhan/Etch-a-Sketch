@@ -5,4 +5,9 @@
     width: 40px;
     box-sizing: border-box;
     flex-basis: calc(100% / 16);
+    transition: background-color 0.2s;
+}
+
+.grid-item:hover {
+    background-color: #999;
 }
